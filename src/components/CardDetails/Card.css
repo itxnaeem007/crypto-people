@@ -1,0 +1,60 @@
+.rare-card {
+    box-shadow: rgb(255 0 0 / 62%) 0px 4px 8px 0px,
+      rgb(255 235 0 / 19%) 0px 6px 20px 0px;
+  }
+  
+  .normal-card {
+    box-shadow: rgb(0 0 0 / 20%) 0px 4px 8px 0px,
+      rgb(0 0 0 / 19%) 0px 6px 20px 0px;
+  }
+  
+  .legendary-card {
+    box-shadow: rgb(255 235 59 / 35%) 0px 4px 8px 0px,
+      rgb(255 152 0 / 62%) 0px 6px 20px 0px;
+  }
+  
+  .epic-card {
+    box-shadow: rgb(11 245 245 / 20%) 0px 4px 8px 0px,
+      rgb(3 172 189 / 19%) 0px 6px 20px 0px;
+    -webkit-animation: colorchange 20s infinite alternate;
+  }
+  .awesome {
+    font-weight: bold;
+    animation: color-change 1s infinite;
+  }
+  
+  @keyframes color-change {
+    0% {
+      color: rgb(255, 238, 0);
+    }
+    50% {
+      color: rgb(255, 0, 0);
+    }
+    100% {
+      color: rgb(255, 136, 0);
+    }
+  }
+  
+  .awesome2 {
+    font-weight: bold;
+    animation: color-change2 1s infinite;
+  }
+  
+  @keyframes color-change2 {
+    0% {
+      color: rgb(255, 166, 0);
+    }
+    25% {
+      color: rgb(255, 187, 0);
+    }
+    50% {
+      color: rgb(255, 230, 0);
+    }
+    75% {
+      color: rgb(255, 166, 0);
+    }
+    100% {
+      color: rgb(255, 187, 0);
+    }
+  }
+  
